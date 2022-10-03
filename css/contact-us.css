@@ -1,0 +1,124 @@
+.contact-us {
+    gap: 10px;
+    position: absolute;
+    width: 1440px;
+    height: 603px;
+    left: 0px;
+    top: 3689px;
+    background: #F7F8FA;
+}
+
+.form-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 101px 130px 102px 130px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 402px;
+    width: 617px;
+}
+
+
+.contact-head {
+    width: 286px;
+    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    color: #101115;
+}
+
+.contact-text {
+    width: 317px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 5px;
+    letter-spacing: -0.012em;
+    color: #1B1C21;
+}
+
+.name-mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    width: 300px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    margin: 32px 8px 25px 0px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-left: 22px;
+}
+
+.email {
+    width: 300px;
+    height: 58px;
+    left: 316px;
+    top: 0px;
+    margin: 32px 0px 25px 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 22px;
+}
+
+.message {
+    width: 617px;
+    height: 164px;
+    left: -0.5px;
+    top: 83px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    resize: none;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding-left: 22px;
+    padding-top: 19px;
+}
+
+.submit {
+    width: 210px;
+    height: 58px;
+    left: -0.5px;
+    top: 269px;
+    border: none;
+    outline: none;
+    margin-top: 22px;
+    background: #1AC073;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-image {
+    width: 503px;
+    height: 402px;
+
+}

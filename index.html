@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JTGeats</title>
+
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- linking cascading style sheets -->
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/landing-section.css">
+    <link rel="stylesheet" href="css/HomeKitchen.css">
+    <link rel="stylesheet" href="css/popularItems.css">
+    <link rel="stylesheet" href="css/video-section.css">
+    <link rel="stylesheet" href="css/contact-us.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal-cart.css">
+    <link rel="stylesheet" href="css/modal-request.css">
+
+</head>
+
+<body>
+
+    <!-- navigation bar with height 80 pixels -->
+    <div class="navigationBar">
+        <!-- navigation bar -->
+        <div class="navigationHeader">
+            <div class="navigationLogo">
+                <h>Eats</h>
+            </div>
+        </div>
+        <!-- navigation bar items -->
+        <div class="navigationLinks">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+        <!-- navigation bar icons -->
+        <div class="navigationIcons">
+            <img src="icons/Search.svg" alt="" id="search">
+            <img src="icons/Cart.svg" alt="" id="cart">
+
+        </div>
+    </div>
+
+
+    <!-- landing section -->
+    <div class="landing-section">
+        <div class="searchFood">
+            <h1 id="searchFoodHeading">Authentic Home food in India</h1>
+            <p id="searchFoodParagraph">JTGeats is a courier service in which authentic home cook food is delivered to a
+                customer.</p>
+            <form action="">
+                <input type="text" placeholder="Search food you love">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <div class="cooking">
+            <img src="icons/cooking.svg" alt="" srcset="" id="cookingImg">
+        </div>
+    </div>
+
+
+    <!-- home kitchen and popular items sections -->
+    <div class="homeKitchen">
+        <h1 class="head-title">Home Kitchen</h1>
+        <div class="wrapper">
+            <div class="cards"></div>
+        </div>
+        <div class="popular-items">
+
+
+            <h1 class="popular-head">Popular Items</h1>
+            <section class="slider">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="card-slider swiper-slide">
+                            <img class="card__image" src="images/unsplash_MqT0asuoIcU.png" alt="">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <h4 class="card__title">Home made pizza</h4>
+                                    <span class="card__price">₹190</span>
+                                </div>
+                                <div class="car__footer">
+                                    <div class="rating__delivery">
+                                        <div class="card__rating">
+                                            <img src="icons/star.svg" alt="" class="rating__star">
+                                            <span class="rating__value">4.7</span>
+                                        </div>
+                                        <div class="delivery__time">
+                                            <div class="main__delivery__time">
+                                                <div class="delivery__time__duration">50-79</div>
+                                                <div class="delivery__time__unit">min</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add__icon">
+                                        <img src="icons/plus.svg" alt="" class="plus__icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-slider swiper-slide">
+                            <img class="card__image" src="images/unsplash_MqT0asuoIcU.png" alt="">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <h4 class="card__title">Home made pizza</h4>
+                                    <span class="card__price">₹190</span>
+                                </div>
+                                <div class="car__footer">
+                                    <div class="rating__delivery">
+                                        <div class="card__rating">
+                                            <img src="icons/star.svg" alt="" class="rating__star">
+                                            <span class="rating__value">4.7</span>
+                                        </div>
+                                        <div class="delivery__time">
+                                            <div class="main__delivery__time">
+                                                <div class="delivery__time__duration">50-79</div>
+                                                <div class="delivery__time__unit">min</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add__icon">
+                                        <img src="icons/plus.svg" alt="" class="plus__icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-slider swiper-slide">
+                            <img class="card__image" src="images/unsplash_MqT0asuoIcU.png" alt="">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <h4 class="card__title">Home made pizza</h4>
+                                    <span class="card__price">₹190</span>
+                                </div>
+                                <div class="car__footer">
+                                    <div class="rating__delivery">
+                                        <div class="card__rating">
+                                            <img src="icons/star.svg" alt="" class="rating__star">
+                                            <span class="rating__value">4.7</span>
+                                        </div>
+                                        <div class="delivery__time">
+                                            <div class="main__delivery__time">
+                                                <div class="delivery__time__duration">50-79</div>
+                                                <div class="delivery__time__unit">min</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add__icon">
+                                        <img src="icons/plus.svg" alt="" class="plus__icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-slider swiper-slide">
+                            <img class="card__image" src="images/unsplash_MqT0asuoIcU.png" alt="">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <h4 class="card__title">Home made pizza</h4>
+                                    <span class="card__price">₹190</span>
+                                </div>
+                                <div class="car__footer">
+                                    <div class="rating__delivery">
+                                        <div class="card__rating">
+                                            <img src="icons/star.svg" alt="" class="rating__star">
+                                            <span class="rating__value">4.7</span>
+                                        </div>
+                                        <div class="delivery__time">
+                                            <div class="main__delivery__time">
+                                                <div class="delivery__time__duration">50-79</div>
+                                                <div class="delivery__time__unit">min</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add__icon">
+                                        <img src="icons/plus.svg" alt="" class="plus__icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-slider swiper-slide">
+                            <img class="card__image" src="images/unsplash_MqT0asuoIcU.png" alt="">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <h4 class="card__title">Home made pizza</h4>
+                                    <span class="card__price">₹190</span>
+                                </div>
+                                <div class="car__footer">
+                                    <div class="rating__delivery">
+                                        <div class="card__rating">
+                                            <img src="icons/star.svg" alt="" class="rating__star">
+                                            <span class="rating__value">4.7</span>
+                                        </div>
+                                        <div class="delivery__time">
+                                            <div class="main__delivery__time">
+                                                <div class="delivery__time__duration">50-79</div>
+                                                <div class="delivery__time__unit">min</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add__icon">
+                                        <img src="icons/plus.svg" alt="" class="plus__icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-slider swiper-slide">
+                            <img class="card__image" src="images/unsplash_MqT0asuoIcU.png" alt="">
+                            <div class="card__content">
+                                <div class="card__header">
+                                    <h4 class="card__title">Home made pizza</h4>
+                                    <span class="card__price">₹190</span>
+                                </div>
+                                <div class="car__footer">
+                                    <div class="rating__delivery">
+                                        <div class="card__rating">
+                                            <img src="icons/star.svg" alt="" class="rating__star">
+                                            <span class="rating__value">4.7</span>
+                                        </div>
+                                        <div class="delivery__time">
+                                            <div class="main__delivery__time">
+                                                <div class="delivery__time__duration">50-79</div>
+                                                <div class="delivery__time__unit">min</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add__icon">
+                                        <img src="icons/plus.svg" alt="" class="plus__icon">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </section>
+
+            <button id="btn-modal" class="requestItem">
+                Request a dish
+            </button>
+            <div class="overlay" id="overlay"></div>
+            <div class="request-modal" id="modal">
+                <h1 class="request-modal-head">Request a Dish</h1>
+                <div class="input-box">
+                    <label class="request-input-name" for="">Name*</label>
+                    <input type="text" placeholder="Enter name of the dish">
+                </div>
+                <div class="input-box">
+                    <label class="request-input-url" for="">Upload an image</label>
+                    <input type="text" placeholder="Paste a URL">
+                </div>
+                <div class="buttons">
+                    <button class="cancel-request" id="close-btn">Cancel</button>
+                    <button class="submit-request" id="close-btn1">Submit Request</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <!-- Cart modal -->
+    <div class="overlay" id="overlay_cart"></div>
+    <div class="modal" id="modal_cart">
+        <img src="icons/cart-modal.svg" alt="" class="cart-modal-image">
+        <h2 class="cart-modal-head">Cart is Empty</h2>
+        <p class="cart-modal-para">Add some items to the cart to checkout</p>
+
+
+        <button class="modal-close-btn" id="close-btn_cart">Back to Menu</button>
+
+    </div>
+
+
+    <!-- section containing the video with play button -->
+    <div class="video-section">
+        <div class="video-section-text">
+
+            <h2 class="video-section-head">We are providing best
+                home cooked food delivery service.</h2>
+            <div class="video-section-para">Away from home and craving the tasty homemade recipes?
+                Choose from a selection of our delicious home cooked dishes </div>
+        </div>
+        <div class="video-lower-background"></div>
+        <video class="video-main" controls loop>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="controls"></div>
+    </div>
+
+
+    <!-- Contact Us section -->
+    <div class="contact-us">
+        <div class="form-image">
+            <div class="contact-form">
+                <h3 class="contact-head">Do you have a question
+                    or want to become a seller?</h3>
+                <p class="contact-text">Fill this form and our manager will contact you in next 48 hours.</p>
+                <div class="name-mail">
+                    <input type="text" class="name" placeholder="Your Name">
+                    <input type="email" class="email" placeholder="Your e-mail">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" class="message" placeholder="Your message"></textarea>
+                <button class="submit">submit</button>
+            </div>
+            <div class="contact-image">
+                <img src="icons/Food delivery illustration.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer section -->
+    <div class="footer">
+        <!-- navigation bar -->
+        <div class="navigationHeader">
+            <div class="navigationLogo">
+                <h>Eeats</h>
+            </div>
+        </div>
+        <!-- navigation bar items -->
+        <div class="navigationLinks">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Menu</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+        <!-- navigation bar icons -->
+        <div class="navigationIcons">
+            <img src="icons/Facebook.svg" alt="" id="search">
+            <img src="icons/instagram.svg" alt="" id="cart">
+
+        </div>
+
+        <div class="horizontal-rule"></div>
+    </div>
+
+
+    <!-- Swiper JS For Carousel  -->css/
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="javascript/app.js"></script>
+
+
+</body>
+
+</html>

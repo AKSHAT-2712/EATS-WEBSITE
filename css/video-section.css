@@ -1,0 +1,81 @@
+.video-section {
+    position: absolute;
+    width: 1440px;
+    height: 860px;
+    left: calc(50% - 1440px/2);
+    top: 2829px;
+    background: #FAFAFA;
+}
+
+.video-section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.video-section-head {
+    width: 750px;
+    height: 114px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.video-section-para {
+    width: 447px;
+    height: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.video-main {
+    position: absolute;
+    height: 442px;
+    margin: 294px 281.5px 124px 281.5px;
+    border-radius: 0px;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.video-lower-background {
+    position: absolute;
+    height: 344px;
+    width: 1440px;
+    left: 0px;
+    top: 516px;
+    border-radius: 0px;
+    background: #C7EACC;
+}
+
+.controls {
+    position: absolute;
+    visibility: hidden;
+    height: 97.5px;
+    width: 97.5px;
+    margin: 172.75px 389.5px 171.75px 671px;
+    border-radius: 50%;
+    background-image: url('/icons/play.svg');
+    background-size: cover;
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.footer {
+    height: 137px;
+    width: 100%;
+    left: 0px;
+    top: 4293px;
+    background-color: #1AC073;
+    position: absolute;
+}
+
+.footer .navigationHeader {
+    display: inline;
+}
+
+.footer .navigationHeader .navigationLogo {
+    display: inline-block;
+    width: 89px;
+    height: 20px;
+    margin: 28px 0px 32px 131.5px;
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.footer .navigationLinks {
+    display: inline;
+    float: inherit;
+    font-size: 18px;
+    margin-left: 298.5px;
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.footer .navigationLinks a {
+    text-decoration: none;
+    width: 48px;
+    height: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+.footer .navigationIcons {
+    position: absolute;
+    display: inline;
+    float: right;
+    margin: 28px 1.83px 16px 209px;
+}
+
+.footer .navigationIcons #search {
+    cursor: pointer;
+}
+
+.footer .navigationIcons #cart {
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+
+.footer .horizontal-rule {
+    margin: 0px 130.5px 48px 129px;
+    width: 1180.5px;
+    height: 0px;
+    background-color: white;
+    border: 0.5px solid #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
